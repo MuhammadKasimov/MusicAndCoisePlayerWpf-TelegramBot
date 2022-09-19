@@ -1,0 +1,114 @@
+﻿<Window
+    x:Class="MusicPlayerWithTgBot.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="clr-namespace:MusicPlayerWithTgBot.Controllers"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    Loaded="Window_Loaded"
+    ResizeMode="CanMinimize"
+    WindowStyle="None"
+    mc:Ignorable="d">
+    <Window.Resources>
+        <md:PackIcon x:Key="PlayIcon" Kind="Play" />
+        <md:PackIcon x:Key="PauseIcon" Kind="Pause" />
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition />
+            <RowDefinition Height="200" />
+        </Grid.RowDefinitions>
+
+        <Button
+            x:Name="CloseBtn"
+            Width="30"
+            Height="30"
+            Margin="5,0"
+            Padding="5"
+            HorizontalAlignment="Right"
+            Background="Red"
+            BorderThickness="0"
+            Click="CloseBtn_Click">
+            <md:PackIcon Kind="CloseBold" />
+        </Button>
+        <MediaElement
+            x:Name="MusicMediaEl"
+            Grid.Row="1"
+            LoadedBehavior="Manual"
+            MediaEnded="MusicMediaEl_MediaEnded"
+            MediaOpened="MusicMediaEl_MediaOpened"
+            Stretch="Fill"
+            UnloadedBehavior="Stop" />
+        <TextBlock
+            x:Name="FileNameTxt"
+            Grid.Row="2"
+            Margin="0,100,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Center"
+            FontSize="10" />
+        <Button
+            x:Name="StopBtn"
+            Grid.Row="2"
+            Margin="0,110,200,0"
+            Click="MusicMediaEl_MediaEnded"
+            Style="{StaticResource MaterialDesignFloatingActionButton}">
+            <md:PackIcon
+                Width="40"
+                Height="40"
+                Foreground="Black"
+                Kind="Stop" />
+        </Button>
+        <Button
+            x:Name="PLayOrPauseBtn"
+            Grid.Row="2"
+            Width="70"
+            Height="70"
+            Margin="10"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Bottom"
+            BorderThickness="0"
+            Click="PLayOrPauseBtn_Click"
+            Style="{StaticResource MaterialDesignFloatingActionButton}">
+            <Image
+                x:Name="PlayOrStopIcon"
+                Width="50"
+                Height="50"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Source="Images/pause.png" />
+        </Button>
+        <ScrollViewer
+            Grid.Row="1"
+            MaxHeight="220"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top">
+            <ItemsControl x:Name="AudiosList" Width="780" />
+        </ScrollViewer>
+
+        <Slider
+            x:Name="VolumeSlider"
+            Grid.Row="2"
+            Width="150"
+            Margin="450,0,0,40"
+            VerticalAlignment="Bottom"
+            Maximum="1"
+            Minimum="0"
+            ValueChanged="VolumeSlider_ValueChanged"
+            Value="0.5" />
+
+        <Slider
+            Name="TimelineSlider"
+            Grid.Row="2"
+            Width="400"
+            Height="25"
+            Margin="5"
+            Thumb.DragCompleted="TimelineSlider_DragCompleted"
+            Thumb.DragStarted="TimelineSlider_DragStarted" />
+
+    </Grid>
+</Window>

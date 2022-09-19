@@ -1,0 +1,2 @@
+C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\bin\Release\net6.0-windows\win-x64\publish\MusicPlayerWithTgBot.pdb
+C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\bin\Release\net6.0-windows\win-x64\publish\MusicPlayerWithTgBot.exe

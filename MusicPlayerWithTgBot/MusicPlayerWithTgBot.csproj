@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\pause.png" />
+    <None Remove="Images\play.png" />
+    <None Remove="music.mp3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="4.6.0" />
+    <PackageReference Include="NAudio" Version="2.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="OggVorbisEncoder" Version="1.2.1" />
+    <PackageReference Include="Telegram.Bot" Version="16.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\pause.png" />
+    <Resource Include="Images\play.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Musics\" />
+    <Folder Include="Voises\" />
+  </ItemGroup>
+
+</Project>
