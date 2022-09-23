@@ -25,14 +25,9 @@ C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\obj\Debug\
 C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\obj\Debug\net6.0-windows\MusicPlayerWithTgBot.pdb
 C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\obj\Debug\net6.0-windows\MusicPlayerWithTgBot.genruntimeconfig.cache
 C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\obj\Debug\net6.0-windows\ref\MusicPlayerWithTgBot.dll
-C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\bin\Debug\net6.0-windows\NAudio.dll
-C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\bin\Debug\net6.0-windows\NAudio.Asio.dll
-C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\bin\Debug\net6.0-windows\NAudio.Core.dll
-C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\bin\Debug\net6.0-windows\NAudio.Midi.dll
-C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\bin\Debug\net6.0-windows\NAudio.Wasapi.dll
-C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\bin\Debug\net6.0-windows\NAudio.WinForms.dll
-C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\bin\Debug\net6.0-windows\NAudio.WinMM.dll
 C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\bin\Debug\net6.0-windows\OggVorbisEncoder.dll
 C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\obj\Debug\net6.0-windows\Controllers\AlarmController.g.cs
-C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\obj\Debug\net6.0-windows\Controllers\AlarmController.baml
+C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\obj\Debug\net6.0-windows\SettingsWindow.g.cs
+C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\obj\Debug\net6.0-windows\SettingsWindow.baml
+C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\bin\Debug\net6.0-windows\WindowsInput.dll

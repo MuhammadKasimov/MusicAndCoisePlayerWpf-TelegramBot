@@ -23,7 +23,22 @@
             <RowDefinition />
             <RowDefinition Height="200" />
         </Grid.RowDefinitions>
-
+        <Button
+            x:Name="SettingsBtn"
+            Width="30"
+            Height="30"
+            Margin="40,0"
+            Padding="5"
+            HorizontalAlignment="Right"
+            Click="SettingsBtn_Click">
+            <md:PackIcon Kind="Settings" />
+        </Button>
+        <Border
+            Grid.Row="0"
+            Width="725"
+            HorizontalAlignment="Left"
+            Background="Beige"
+            MouseDown="Border_MouseDown" />
         <Button
             x:Name="CloseBtn"
             Width="30"
@@ -99,7 +114,7 @@
             Maximum="1"
             Minimum="0"
             ValueChanged="VolumeSlider_ValueChanged"
-            Value="0.5" />
+            Value="1" />
 
         <Slider
             Name="TimelineSlider"

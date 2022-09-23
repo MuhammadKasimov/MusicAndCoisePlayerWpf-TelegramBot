@@ -5,13 +5,6 @@ C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\bin\Releas
 C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\bin\Release\net6.0-windows\win-x64\MusicPlayerWithTgBot.pdb
 C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\bin\Release\net6.0-windows\win-x64\MaterialDesignColors.dll
 C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\bin\Release\net6.0-windows\win-x64\MaterialDesignThemes.Wpf.dll
-C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\bin\Release\net6.0-windows\win-x64\NAudio.dll
-C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\bin\Release\net6.0-windows\win-x64\NAudio.Asio.dll
-C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\bin\Release\net6.0-windows\win-x64\NAudio.Core.dll
-C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\bin\Release\net6.0-windows\win-x64\NAudio.Midi.dll
-C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\bin\Release\net6.0-windows\win-x64\NAudio.Wasapi.dll
-C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\bin\Release\net6.0-windows\win-x64\NAudio.WinForms.dll
-C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\bin\Release\net6.0-windows\win-x64\NAudio.WinMM.dll
 C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\bin\Release\net6.0-windows\win-x64\Newtonsoft.Json.dll
 C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\bin\Release\net6.0-windows\win-x64\OggVorbisEncoder.dll
 C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\bin\Release\net6.0-windows\win-x64\Telegram.Bot.dll
@@ -35,3 +28,6 @@ C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\obj\Releas
 C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\obj\Release\net6.0-windows\win-x64\MusicPlayerWithTgBot.pdb
 C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\obj\Release\net6.0-windows\win-x64\MusicPlayerWithTgBot.genruntimeconfig.cache
 C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\obj\Release\net6.0-windows\win-x64\ref\MusicPlayerWithTgBot.dll
+C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\obj\Release\net6.0-windows\win-x64\SettingsWindow.g.cs
+C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\obj\Release\net6.0-windows\win-x64\SettingsWindow.baml
+C:\Users\muham\source\repos\MusicPlayerWithTgBot\MusicPlayerWithTgBot\bin\Release\net6.0-windows\win-x64\WindowsInput.dll

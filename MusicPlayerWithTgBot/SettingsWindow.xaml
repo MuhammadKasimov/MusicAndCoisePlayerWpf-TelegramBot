@@ -1,0 +1,39 @@
+﻿<Window
+    x:Class="MusicPlayerWithTgBot.SettingsWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:MusicPlayerWithTgBot"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
+    Title="SettingsWindow"
+    Width="350"
+    Height="200"
+    ResizeMode="NoResize"
+    mc:Ignorable="d">
+    <Grid>
+        <StackPanel>
+            <DockPanel>
+                <Button x:Name="TokenBtnSave" Click="TokenBtnSave_Click">
+                    <md:PackIcon Kind="Done" />
+                </Button>
+                <TextBox x:Name="TokenTxt" md:HintAssist.Hint="Token" />
+            </DockPanel>
+            <DockPanel>
+                <Button x:Name="UserBtnAdd" Click="UserBtnAdd_Click">
+                    <md:PackIcon Kind="Done" />
+                </Button>
+                <TextBox x:Name="UserTxt" md:HintAssist.Hint="New User Id" />
+            </DockPanel>
+            <DockPanel>
+                <Button
+                    x:Name="UserDeleteBtnAdd"
+                    Background="Red"
+                    Click="UserDeleteBtnAdd_Click">
+                    <md:PackIcon Kind="Delete" />
+                </Button>
+                <TextBox x:Name="UserDeleteTxt" md:HintAssist.Hint="User Id" />
+            </DockPanel>
+        </StackPanel>
+    </Grid>
+</Window>
